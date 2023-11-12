@@ -1,0 +1,66 @@
+.banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.caixa-formulario{
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.caixa-formulario .formulario{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color:  rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.caixa-formulario .formulario span{
+    color: black;
+    font-size: 17px;
+}
+
+.caixa-formulario .formulario input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+}
+
+.caixa-formulario .formulario button{
+    width: 240px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #26773eec;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/*  */
+
+.caixa-formulario .formulario a{
+    text-decoration: none;
+    color: #26773eec;
+    font-weight: bold;
+}
+
+.caixa-formulario .formulario button:hover{
+    background-color: #2e954dec;
+}
+
+.image-login{
+    margin-top: 7%;
+}
+
+.image-login img{
+    width: 400px;
+}

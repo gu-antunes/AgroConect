@@ -1,0 +1,100 @@
+.banner .container .image{
+    display: flex;
+    justify-content: end;
+}
+
+.banner .container .image img{
+    height: 1250px;
+}
+
+.social{
+    margin-top: -55%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;;
+}
+
+.social .title h2{
+    color: #2c7248;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.social .descricao{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social .descricao span{
+    color: #2c7248;
+    font-weight: bold;
+}
+
+.social .button{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.social .button button{
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2b643cec;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.social .button button:hover{
+    background-color: #3d5845;
+}
+
+.project{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.project .title h2{
+    color: #2c7248;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project .descricao{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project .imagens{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.project .imagens img{
+    width: 450px;
+    border-radius: 20px;
+}
+
+
+.project .imagens .fazenda img{
+    width: 650px;
+    border-radius: 20px;
+}
+
+
+
+
