@@ -32,6 +32,11 @@ footer .container a{
     text-decoration: none;
 }
 
+footer .container a{
+    color: white;
+    text-decoration: none;
+}
+
 footer .container a:hover{
     font-size: 17px;
     color: rgb(197, 196, 196);

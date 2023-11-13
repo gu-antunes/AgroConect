@@ -1,0 +1,70 @@
+.banner .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .container .hello{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .container .cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner .container .cards .card{
+    background-color: rgb(243, 243, 243);
+    width: 300px;
+    height: 550px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.banner .container .cards .card .card-image{
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.banner .container .cards .card .card-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner .container .cards .card .title{
+    text-align: center;
+}
+
+.banner .container .cards .card .empresa p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #566573;
+}
+
+.banner .container .cards .card .desc{
+    width: 250px;
+    padding: 10px;
+    margin-top: -9%;
+}
+
+.banner .container .cards .card .button{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .container .cards .card .button button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0e9d57;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* 
+ */

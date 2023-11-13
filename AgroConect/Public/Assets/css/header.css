@@ -39,6 +39,10 @@ body{
     text-decoration: none;
 }
 
+.navbar #sair{
+    color: rgb(206, 44, 44);
+}
+
 .navbar li a:hover{
     font-size: 20px;
     color: #88a080;
